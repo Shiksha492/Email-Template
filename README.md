@@ -1,2 +1,2 @@
 # Email-Template
-Designed a Levis email template
+Designed a dummy Levis email template

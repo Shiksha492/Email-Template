@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template Using Table</title>
+    <style>
+        body {
+            background-color: #eee7e7;
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #eee7e7;
+            padding-bottom: 10px;
+        }
+
+        .main {
+            background-color: white;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            /* border: 2px solid blue; */
+            border-spacing: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10px;
+        }
+
+        .two-columns {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <center class="wrapper">
+        <table class="main" width="100%">
+            <!-- LOGO SECTION -->
+            <tr>
+                <td height="150px">
+                    <table width="100%" style="padding: 20px 0;">
+                        <tr>
+                            <td class="two-columns">
+                                <table class="column">
+                                    <tr>
+                                        <td>
+                                            <img src="bcom-logo.png" alt="" style="padding-left: 40px;">
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td>
+                                            <img src="levis-logo-icon.png" alt="" style="padding-right: 40px;">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- HEADER -->
+            <tr>
+                <td style="padding: 0 40px 10px 40px;">
+                    <h1 style="font-size: 44px;font-weight: 800;margin: 0;max-width: 100%;">YOUR PREBOOK
+                        ORDER SUMMARY</h1>
+                </td>
+            </tr>
+            <!-- ORDER DETAILS SECTION -->
+            <tr>
+                <td>
+                    <table
+                        style="width: 85%;margin: 20px 40px 0 40px; padding: 10px; background-color: rgb(248, 243, 243);max-width: 500px;">
+                        <tr>
+                            <td>
+                                <h3 style="font-size: 16px;color: rgb(24, 23, 23);margin: 0 0 3px 0;font-weight: 700;">
+                                    Purchase Order #CC Test</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="Moredetails" style="display: flex; justify-content: space-between;max-width: 480px;">
+
+
+                                <table class="details" style="width: 58%;max-width: 350px;">
+                                    <tr>
+                                        <td>
+                                            <h4 style="margin: 0;font-size: 14px;color: rgb(24, 23, 23)">Order Summary:
+                                            </h4>
+                                            <p style="font-size: 13px; margin-top: 5px;color: rgb(24, 23, 23)">Order
+                                                Type: Prebook <br>
+                                                Order Number: 2600013019, 2600013018 <br>
+                                                Order Date January 09, 2024
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+
+
+                                <table class="details" style="width: 42%;max-width: 200px;">
+                                    <tr>
+                                        <td>
+                                            <h4 style="margin: 0;font-size: 14px;color: rgb(24, 23, 23)">Delivery
+                                                Address:</h4>
+                                            <p style="font-size: 13px; margin-top: 5px;color: rgb(24, 23, 23)">1572 WEST
+                                                4TH AVE
+
+                                                <br>
+                                                VANCOUVER , British Columbia <br>
+                                                V6J 1L7, Canada
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+
+
+                    </table>
+
+                </td>
+            </tr>
+
+            <!-- THREE COLUMN SECTION -->
+            <tr>
+                <td>
+                    <table width="100%" style="padding: 0 40px; margin-top: 20px; ">
+                        <tr>
+                            <td class="three-column">
+                                <table class="column2" style="width: 100%;">
+                                    <tr>
+                                        <td style="display: flex;justify-content: space-between;">
+                                            <table style="width: 15%;">
+                                                <tr>
+                                                    <td> <img src="img1.jpg$104x115$" width="80px"
+                                                            height="100px"></td>
+                                                </tr>
+
+                                            </table>
+
+                                            <table style="width: 82%; height: 80px;">
+                                                <tr>
+                                                    <td>
+                                                        <h5 style="margin: 0;font-size: 16px;color: rgb(24, 23, 23)">
+                                                            501® '93 SHORTS TIME FOR RECESS SHORT</h5>
+                                                        <span
+                                                            style="font-size: 12px;margin: 0;color: rgb(107, 106, 106);font-weight: bold;">85221-0074</span>
+                                                        &nbsp; &nbsp; &nbsp; &nbsp;<span
+                                                            style="font-size: 12px;color: rgb(107, 106, 106)">Color:
+                                                            Time For Recess Short</span><br>
+                                                        <span style="font-size: 12px;"><strong>W34-L7</strong>
+                                                        </span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                                                        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                                                        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                                                        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                                                        <span style="font-size: 12px;">10x =C$350.00</span>
+
+
+
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+                                    </tr>
+
+
+                                </table>
+
+                                <hr>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="three-column">
+                                <table class="column2" style="width: 100%;">
+                                    <tr>
+                                        <td style="display: flex;justify-content: space-between;">
+                                            <table style="width: 15%;">
+                                                <tr>
+                                                    <td> <img src="img2.jpg$104x115$" width="80px"
+                                                            height="100px"></td>
+                                                </tr>
+
+                                            </table>
+
+                                            <table style="width: 82%; height: 80px;">
+                                                <tr>
+                                                    <td>
+                                                        <h5 style="margin: 0;font-size: 16px;color: rgb(24, 23, 23)">
+                                                            511™ SLIM BLACK LEAF ADV</h5>
+                                                        <span
+                                                            style="font-size: 12px;margin: 0;color: rgb(107, 106, 106);font-weight: bold;">04511-4969</span>
+                                                        &nbsp; &nbsp; &nbsp; &nbsp;<span
+                                                            style="font-size: 12px;color: rgb(107, 106, 106)"> Color:
+                                                            Black Leaf Adv</span><br>
+                                                        <span style="font-size: 12px;"><strong>W36-L32</strong>
+                                                        </span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                                                        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                                                        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                                                        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                                                        <span style="font-size: 12px;">10x =C$475.00</span>
+
+
+
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+                                    </tr>
+
+
+                                </table>
+
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="three-column">
+                                <table class="column2" style="width: 100%;">
+                                    <tr>
+                                        <td style="display: flex;justify-content: space-between;">
+                                            <table style="width: 15%;">
+                                                <tr>
+                                                    <td> <img src="img3.jpg$104x115$" width="80px"
+                                                            height="100px"></td>
+                                                </tr>
+
+                                            </table>
+
+                                            <table style="width: 82%; height: 80px;">
+                                                <tr>
+                                                    <td>
+                                                        <h5 style="margin: 0;font-size: 16px;color: rgb(24, 23, 23)">
+                                                            501® '93 STRAIGHT FUNNY THING IS GD</h5>
+                                                        <span
+                                                            style="font-size: 12px;margin: 0;color: rgb(107, 106, 106);font-weight: bold;">79830-0310</span>
+                                                        &nbsp; &nbsp; &nbsp; &nbsp;<span
+                                                            style="font-size: 12px;color: rgb(107, 106, 106)">Color:
+                                                            Funny Thing Is Gd</span><br>
+                                                        <span style="font-size: 12px;"><strong>W32-L30 </strong>
+                                                        </span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                                                        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                                                        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                                                        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                                                        <span style="font-size: 12px;">10x =C$520.00</span>
+
+
+
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+                                        </td>
+                                    </tr>
+
+
+                                </table>
+
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- CLICK TO ACTION -->
+            <tr>
+                <td style="padding: 40px 40px 20px 40px;">
+                    <table class="button">
+                        <button style="height: 45px;width: 32%;background-color: black;border-style: none;"><a href=""
+                                style="color: white;text-decoration: none;padding: 12px;font-weight: bold;">View Order
+                                Details</a></button>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- SMALL PARA -->
+            <tr>
+                <td style="padding: 0 40px;">
+                    <p style="font-size: 15px;">This is an automated notification. If you have any questions, please <a
+                            href="" style="color: black;"> contact Customer Support.</a></p>
+                </td>
+            </tr>
+
+
+            <!-- MORE HEADING -->
+            <tr>
+                <td style="padding: 0 40px ;">
+                    <h3 style="font-weight: 800;font-size: 16px;">HELP CENTER</h3>
+                </td>
+            </tr>
+
+            <!-- FOUR COLUMN TABLE -->
+
+            <tr>
+                <td>
+                    <table width="100%" style="padding: 0 40px 20px 40px; ">
+                        <tr>
+                            <td
+                                style="display: flex;justify-content: space-between;align-items: center;text-align: center;">
+                                <table class="column4"
+                                    style="width: 120px; height: 110px;background-color:rgb(233, 231, 231)">
+                                    <tr>
+                                        <td> <img src="OH.png" alt="" height="43px" width="40px">
+                                            <p style="font-size: 13px;margin: 0;">Order History</p>
+                                        </td>
+                                    </tr>
+
+
+                                </table>
+                                <table class="column4"
+                                    style="width: 120px; height: 110px;background-color:rgb(233, 231, 231)">
+                                    <tr>
+                                        <td> <img src="FAQ.png" alt="" height="43px" width="40px">
+                                            <p style="font-size: 13px;margin: 0;">EAQs</p>
+                                        </td>
+                                    </tr>
+
+
+                                </table>
+                                <table class="column4"
+                                    style="width: 120px; height: 110px;background-color: rgb(233, 231, 231);">
+                                    <tr>
+                                        <td> <img src="Contact.png">
+                                            <p style="font-size: 13px;margin: 0;">Contact Us</p>
+                                        </td>
+                                    </tr>
+
+
+                                </table>
+                                <table class="column4"
+                                    style="width: 120px; height: 110px;background-color: rgb(233, 231, 231);">
+                                    <tr>
+                                        <td> <img src="Account.png" alt="" height="43px" width="40px">
+                                            <p style="font-size: 13px;margin: 0;">Account Balance</p>
+                                        </td>
+                                    </tr>
+
+
+                                </table>
+                            </td>
+                        </tr>
+
+
+                    </table>
+                </td>
+            </tr>
+
+
+            <!-- FOOTER -->
+
+            <tr>
+                <td style=" padding: 10px 40px 20px 40px;">
+                    <table style="width: 100%; text-align: center;">
+                        <tr>
+                            <td class="address" ">
+                    <p style=" font-size: 13px;margin: 2px;">Levi Strauss & Co. Customer Service</p>
+                                <p style="font-size: 13px;margin: 2px;">Unit M400 – 179 Enterprise Boulevard, Markham,
+                                    Ontario L6G 0E7</p>
+                                <p style="font-size: 13px;margin: 2px;">The order is subject to our <a href=""
+                                        style="color: black;">Terms of Use and Privacy Policy</a> </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+    </center>
+</body>
+
+</html>
